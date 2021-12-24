@@ -15,11 +15,15 @@
 .grey-color {
     color: #868e96;
 }
+.avt-section {
+    padding-left: 61px;
+}
+
 .home-photo {
     display: block;
     position: relative;
-    width: 100%;
-    padding-bottom: calc(100% - 36px);
+    width: 85%;
+    padding-bottom: calc(85% - 36px);
     background-color: #860c0c;
     border-radius: 1000px;
     border: 18px solid #fff;
@@ -72,7 +76,7 @@
     z-index: 1;
 }
 .home-content {
-    margin: 12% 10%;
+    margin: 10% 6%;
 }
 .flex-v-align {
     vertical-align: middle;
