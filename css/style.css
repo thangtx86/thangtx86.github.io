@@ -1,16 +1,26 @@
 /*
   General Styles --------------------------------------------------------------*/
 
+@font-face {
+    font-family: Agustina;
+    src: url(../font/Agutina.otf);
+}
+
 /* home custom */
-.header-logo {
-    font-family: Agustina Regular;
-    font-weight: 700;
-    padding: 0 10px;
+
+.logo .header-logo {
+    display: block;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
 }
 .logo-name {
-    font-family: Agustina Regular;
+    font-family: Agustina;
     font-weight: 700;
     padding: 0 10px;
+    font-size: 36px;
 }
 .grey-color {
     color: #868e96;
@@ -108,14 +118,13 @@ body {
 }
 
 a {
-    color: #d29e02;
     transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #d29e02;
+    /* color: #d29e02; */
     outline: none;
     text-decoration: none;
 }
@@ -256,7 +265,7 @@ h6 {
     transition: all 0.5s;
 }
 
-#header #logo h1 {
+/* #header #logo h1 {
     font-size: 36px;
     margin: 0;
     padding: 6px 0;
@@ -265,16 +274,16 @@ h6 {
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
-}
+} */
 
-#header #logo h1 span {
+/* #header #logo h1 span {
     color: #020202;
-}
+} */
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
-    color: #fff;
-}
+/* #header #logo h1 a, */
+/* #header #logo h1 a:hover {
+    color: '#000';
+} */
 
 #header #logo img {
     padding: 0;
@@ -358,7 +367,7 @@ h6 {
     padding: 8px;
     text-decoration: none;
     display: inline-block;
-    color: rgba(202, 206, 221, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -367,7 +376,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .nav-menu > li {
@@ -381,7 +390,7 @@ h6 {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #d29e02;
+    background-color: #007bff;
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
 }
